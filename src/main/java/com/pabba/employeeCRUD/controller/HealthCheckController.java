@@ -9,6 +9,6 @@ public class HealthCheckController {
 
     @GetMapping("/")
     public ResponseEntity<String> healthCheckApi() {
-        return ResponseEntity.ok("it is working..!!!");
+        return ResponseEntity.ok("nooru musko ra poola chokka");
     }
 }
